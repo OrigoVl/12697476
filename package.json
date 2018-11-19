@@ -1,0 +1,32 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://OrigoVll@bitbucket.org/OrigoVll/origotest3.git"
+  },
+  "scripts": {
+    "watch": "gulp"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "imagemin-pngquant": "^6.0.0"
+  },
+  "name": "12697476",
+  "homepage": "https://bitbucket.org/OrigoVll/origotest3#readme",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

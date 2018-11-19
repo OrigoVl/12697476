@@ -1,0 +1,5 @@
+@import 'variables';
+@import 'mixins/font-face';
+
+@include font-face('Poppins', $path-to-fonts + 'PTSans/PTSans-Regular', 400, normal);
+@include font-face('Poppins', $path-to-fonts + 'PTSans/PTSans-Bold', 700, normal);

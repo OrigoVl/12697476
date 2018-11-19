@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="libs/normalize/normalize.css">
+    <link rel="stylesheet" href="libs/flexboxgrid/flexboxgrid.min.css">
+    <link rel="stylesheet" href="assets/global/css/global.min.css">
+    <link rel="stylesheet" href="assets/pages/review/css/review.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="review">
+        <div class="review__wrapper">
+            <div class="g-wrapper row review__user-data">
+                <div class="col-xs-3 col-lg-3 review__photo-wrapper">
+                    <div class="review__photo">
+                        <img src="assets/images/photo.png" alt="User Photo">
+                    </div>
+                </div>
+                <div class="col-xs-9 col-lg-9">
+                    <h3 class="review__user-name">
+                        Вероника Ростова
+                    </h3>
+                    <p class="review__user-position">
+                        Менеджер по продажам
+                    </p>
+                    <div class="review__description">
+                        Подберу для вас самые лучшие предложения.<br>
+                        Мои услуги абсолютно бесплатны
+                    </div>
+                    <div class="review__services-wrapper">
+                        <div class="row review__services-title">
+                            <div class="col-xs-8 col-lg-8"></div>
+                            <p class="col-xs-4 col-lg-4">Услуги</p>
+                        </div>
+                        <div class="col-lg-12 review__services">
+                            <div class="review__services-items">
+                                <div class="review__services-item">
+                                    <div class="col-xs-8 col-lg-8 review__services-name">
+                                        <p>Ручное бронирование</p>
+                                        <span class="review__services-progress review__services-progress--first"></span>
+                                    </div>
+                                    <b class="col-xs-4 col-lg-4 review__services-number">
+                                        11
+                                    </b>
+                                </div>
+                                <div class="review__services-item">
+                                    <div class="col-xs-8 col-lg-8 review__services-name">
+                                        <p>Пакетные туры</p>
+                                        <span class="review__services-progress review__services-progress--second"></span>
+                                    </div>
+                                    <b class="col-xs-4 col-lg-4 review__services-number">
+                                        3
+                                    </b>
+                                </div>
+                                <div class="review__services-item">
+                                    <div class="col-xs-8 col-lg-8 review__services-name">
+                                        <p>Отели</p>
+                                        <span class="review__services-progress review__services-progress--third"></span>
+                                    </div>
+                                    <b class="col-xs-4 col-lg-4 review__services-number">
+                                        1
+                                    </b>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__services-total">
+                            <div class="col-xs-8 col-lg-8 review__services-name">
+                                <h3>Всего</h3>
+                            </div>
+                            <b class="col-xs-4 col-lg-4 review__services-number">
+                                15
+                            </b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="g-wrapper review__comments-info">
+                <div class="review__links">
+                    <h3>Последние отзывы</h3>
+                    <a href="">Все отзывы</a>
+                </div>
+                <div class="review__social-wrapper">
+                    <div class="review__social-icon">
+                        <div class="review__social-likes-icon"></div>
+                        <span>131</span>
+                    </div>
+                    <div class="review__social-icon">
+                        <div class="review__social-comments-icon"></div>
+                        <span>14</span>
+                    </div>
+                </div>
+            </div>
+            <form class="g-wrapper review__form j-form">
+                <div class="review__form-item">
+                    <div class="review__author">
+                        <h3>Самуил</h3>
+                        <span>13 октября 2011</span>
+                    </div>
+                    <div class="review__message">
+                        Привет, Верунь! ниче себе ты крутая. фотка класс!!!!
+                    </div>
+                </div>
+                <div class="review__form-item">
+                    <div class="review__author">
+                        <h3>Лилия Семёновна</h3>
+                        <span>14 октября 2011</span>
+                    </div>
+                    <div class="review__message">
+                        Вероника, здравствуйте! Есть такой вопрос:
+                        Особый вид куниц жизненно стабилизирует кинетический
+                        момент, это и есть всемирно известный центр
+                        огранки алмазов и торговли бриллиантами?
+                    </div>
+                </div>
+                <div class="review__form-item">
+                    <div class="review__author">
+                        <h3>Лилия Семёновна</h3>
+                        <span>14 октября 2011</span>
+                    </div>
+                    <div class="review__message">
+                        Вероника, здравствуйте!
+                        Есть такой вопрос: Особый вид куниц жизненно
+                        стабилизирует кинетический момент?
+                    </div>
+                </div>
+            </form>
+            <div class="review__input-wrapper">
+                <textarea
+                    type="text"
+                    class="review__input j-textarea"
+                ></textarea>
+                <button
+                    type="submit"
+                    class="review__button j-button"
+                >
+                    Написать консультанту
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/pages/review/js/review.min.js"></script>
+</body>
+</html>
